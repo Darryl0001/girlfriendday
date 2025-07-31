@@ -1,0 +1,96 @@
+body{
+  font-family: Trebuchet MS;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  background: #f8eeee;
+  
+}
+.container{
+  width:75vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius:16px;
+  text-align: center;
+  border: 3px dashed #ff8896;
+  padding:16px;
+  background:#fcfcf7 ;
+  margin:40px;
+}
+
+
+.cat_img{
+  width:60%;
+  border-radius:8px;
+}
+.envelope{
+  width:80%;
+  margin:8px;
+}
+.cat_cry{
+  width:50%;
+  border-radius:8px;
+  border:1px solid pink;
+}
+.girl{
+  width:80%;
+  border-radius:8px;
+}
+
+
+.greeting{
+  font-size:28px;
+  font-weight:bold;
+  color:#ff6f77;
+}
+.date{
+  font-size:10px;
+}
+.button1,.button2{
+  border-radius:24px;
+  padding:12px 28px;
+  border:none;
+  
+}
+.button1{
+  background: #ffbbc1;
+  animation: pump 1.5s infinite;
+  transition: transform 0.3s;
+}
+
+.text_letter{
+  width:80%;
+  margin-top:40px;
+}
+.text_letter p{
+  text-align: justify;
+}
+h3{
+  max-width:80%;
+  margin-bottom:24px;
+}
+.hidden-text {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.fade-in {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in;
+}
+
+
+
+@keyframes pump {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
